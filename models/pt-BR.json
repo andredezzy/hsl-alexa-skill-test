@@ -1,0 +1,38 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "hospital",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "EmergencyIntent",
+                    "slots": [],
+                    "samples": [
+                        "medico urgente",
+                        "passando mal",
+                        "estou passando mal",
+                        "preciso de um medico",
+                        "estou precisando de um medico",
+                        "preciso de um medico agora"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

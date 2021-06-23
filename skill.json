@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "hsl",
+          "summary": "Hospital Sírio Libanês Alexa Skill",
+          "description": "Alexa Skill para o Hospital Sírio Libanês, você pode chamar por um médico e entre outras funcionalidades.",
+          "examplePhrases": [
+            "Alexa abrir hospital sírio libanês",
+            "Preciso de um médico",
+            "Estou passando mal"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "hsl": {
+        "endpoint": {
+          "sourceDir": "lambda/hsl/build",
+          "uri": "ask-alexa-lambda-hsl-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
